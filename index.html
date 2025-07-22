@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loja Moderstyle</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="spot.js" defer></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="logo">Moderstyle</div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#" id="cart-btn">🛒 <span id="cart-count">0</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>logo abaixo</h1>
+      <p>Descubra as tendências da nova estação</p>
+      <a href="#produtos" class="btn">Ver Coleção</a>
+    </div>
+  </section>
+
+  <!-- inicio lista de Produtos -->
+  <section id="produtos" class="produtos-section">
+    <h2>Nossa Coleção</h2>
+    <div class="produtos-grid">
+      <div class="produto-card">
+        <img src="https://via.placeholder.com/300x400" alt="Produto 1" />
+        <h3>Camiseta Básica</h3>
+        <p>R$ 89,90</p>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto-card">
+        <img src="https://via.placeholder.com/300x400" alt="Produto 2" />
+        <h3>Calça Básica</h3>
+        <p>R$ 199,90</p>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+            <div class="produto-card">
+        <img src="https://via.placeholder.com/300x400" alt="Produto 3" />
+        <h3>Jaqueta Jeans</h3>
+        <p>R$ 198,90</p>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+            <div class="produto-card">
+        <img src="https://via.placeholder.com/300x400" alt="Produto 4" />
+        <h3>calça Jeans</h3>
+        <p>R$ 179,90</p>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+            <div class="produto-card">
+        <img src="https://via.placeholder.com/300x400" alt="Produto 5" />
+        <h3>Camisa Social</h3>
+        <p>R$ 299,90</p>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+            <div class="produto-card">
+        <img src="https://via.placeholder.com/300x400" alt="Produto 6" />
+        <h3>Calça Social</h3>
+        <p>R$ 299,90</p>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+      <!--fim lista de produtos-->
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="sobre-section">
+    <h2>Sobre Nós</h2>
+    <p>Somos uma marca que acredita na moda como expressão de identidade<br/> e liberdade. Lutamos pela liberdade de expressão e conforto dos nossos clientes! </p>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="contato-section">
+    <h2>Fale Conosco</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required />
+      <input type="email" placeholder="Seu e-mail" required />
+        <input type="tel" placeholder="seu telefone"/>
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <p>&copy; LojaModerna por israel. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
